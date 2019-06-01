@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+header nav{
+	width: 700px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 22px;
+}
+
+header nav a{
+	display: inline-block;
+	margin-right: 60px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: gray;
+}
+
+header nav a:last-child {
+	margin-right: 0;
+}
+
+header .logo {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.startText {
+	display: inline-block;
+	font-size: 70px;
+	margin-top: 110px;
+	text-align: center;
+	padding: 0 60px;
+	vertical-align: top;
+}
+
+.startText .getStarted {
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+	padding: 10px 30px;
+	border: 1px solid black;
+}
+
+.startText .getStarted a{
+	color: black;
+}
+
+.start img {
+	display: inline-block;
+	margin-top: 70px;
+}
+
+.firstLine{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.firsttext {
+	width: 440px;
+	display: inline-block;
+	line-height: 1.10;
+}
+
+.firsttext h3{
+	font-size: 18px;
+}
+
+.firsttext:first-child {
+	text-align: left;
+	margin-right: 15px;
+}
+
+.secondContent img{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.secondtext h3 {
+	font-size: 18px;
+}
+
+.secondtext {
+	width: 290px;
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 1.10;
+}
+.secondtext:last-child {
+	margin-right: 0px;
+}
+
+.contact {
+	display: inline-block;
+}
+
+.contact h3 {
+	font-size: 18px;
+}
+
+.contact p {
+	line-height: 2;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/*getting more space with this*/
